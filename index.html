@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD em PHP</title>
+</head>
+<body>
+    
+    <h2>Cadastro de Usuário</h2>
+
+    <form name="formulario-cadastro" action="./servidor.php" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome">
+
+        <br><br>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email">
+
+        <br><br>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha">
+
+        <br><br>
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" name="idade">
+
+        <br><br>
+        <button>Cadastrar</button>
+    </form>
+
+</body>
+</html>
